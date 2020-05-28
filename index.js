@@ -20,14 +20,14 @@ class Triangle extends Polygon{
         let valid;
         if (this.countSides == 3){
             let [a,b,c] = this.array
-            debugger
+            
             if (a+b > c && a+c > b && c+b > a){
                 valid = true
             } else {
                 valid = false
             }
         }
-        debugger
+        
         return valid
     }
 
